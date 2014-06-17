@@ -1,4 +1,4 @@
-package com.comverse.timesheet.web.conroller;
+package com.comverse.timesheet.web.controller;
 
 import javax.annotation.Resource; 
 import javax.servlet.http.HttpServletRequest;

@@ -55,7 +55,7 @@
         <init-param> 
            <param-name>contextConfigLocation</param-name> 
            <param-value>
-            classpath:/com/comverse/timesheet/config/dispatcher-servlet.xml
+            	classpath:/com/comverse/timesheet/config/dispatcher-servlet.xml
            </param-value> 
           </init-param> 
         <load-on-startup>1</load-on-startup> 

@@ -49,13 +49,13 @@ http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
             expression="execution(* com.comverse.timesheet.web.business.*.*(..))" /> 
         <aop:advisor pointcut-ref="pc" advice-ref="userTxAdvice" /> 
     </aop:config> 
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> 
-        <property name="configLocation" 
-        value="classpath:/com/comverse/timesheet/mybatis/SqlMapConfig.xml" /> 
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:/com/comverse/timesheet/mybatis/SqlMapConfig.xml"/>
         <property name="dataSource" ref="dataSource" /> 
-    </bean> 
+    </bean>
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate"> 
         <constructor-arg index="0" ref="sqlSessionFactory" /> 
     </bean> 
-    <import resource="ImplAndBusinessBeans.xml" /> 
+    <import resource="ImplAndBusinessBeans.xml" />
+                      
 </beans>
