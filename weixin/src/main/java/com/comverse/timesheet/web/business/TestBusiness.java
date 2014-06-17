@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import com.comverse.timesheet.web.bean.TestTable; 
+import com.comverse.timesheet.web.bean.TestTable;
 import com.comverse.timesheet.web.dao.ITestTableDAO;
 
 public class TestBusiness { 
