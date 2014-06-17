@@ -7,7 +7,7 @@
   <context-param> 
         <param-name>contextConfigLocation</param-name> 
         <param-value>
-        classpath:config/*.xml 
+        classpath:/com/comverse/timesheet/config/ApplicationContext.xml
         </param-value> 
     </context-param>
     <listener> 
@@ -34,7 +34,7 @@
     <context-param> 
         <param-name>log4jConfigLocation</param-name> 
         <param-value>
-        classpath:config/log4j.properties 
+        classpath:/com/comverse/timesheet/config/log4j.properties 
         </param-value> 
     </context-param> 
     <context-param> 
@@ -55,7 +55,7 @@
         <init-param> 
            <param-name>contextConfigLocation</param-name> 
            <param-value>
-           classpath:config/dispatcher-servlet.xml 
+            classpath:/com/comverse/timesheet/config/dispatcher-servlet.xml
            </param-value> 
           </init-param> 
         <load-on-startup>1</load-on-startup> 
