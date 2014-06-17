@@ -18,3 +18,7 @@ CREATE TABLE IF NOT EXISTS `testtable` (
   `date` timestamp NULL DEFAULT NULL, 
   PRIMARY KEY (`id`) 
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+
+
+
+2.要测试2表插入，一表不成功，是否回退？
